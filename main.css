@@ -1,0 +1,14 @@
+.menu {
+  background-color: #000; }
+
+#content {
+  color: #fff; }
+  #content span {
+    color: #999900; }
+
+.footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f00;
+  padding: 20px; }
+
+/*# sourceMappingURL=main.css.map */

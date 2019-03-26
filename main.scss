@@ -1,0 +1,33 @@
+$colorDefault: #fff;
+$colorMenu: #000;
+$colorSpan: #ff0;
+
+.menu {
+    background-color: $colorMenu;
+}
+
+@mixin primomixin($size) {
+    @if($size > 20px){
+        font-size: $size;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    @else {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+#content {
+    color: $colorDefault;
+
+    span {
+        color: darken($color: $colorSpan, $amount: 20%);
+    }
+}
+
+.footer {
+    @include primomixin(10px);
+    color: #f00;
+    padding: 20px;
+}
+
